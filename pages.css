@@ -1,0 +1,22 @@
+body {
+    background-color: #222021;
+    color: #f4eee3;
+    font-family: 'font', monospace;
+}
+
+a {
+    color: #80948c;
+}
+
+a:visited {
+    color: #5e695c;
+}
+
+/*figuring out how to import fonts into this was really interesting!*/
+@font-face {
+    font-family: 'font';
+    src: url('fonts/FiraCodeNerdFont-Regular.woff2') format('woff2'),
+         url('fonts/FiraCodeNerdFont-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
